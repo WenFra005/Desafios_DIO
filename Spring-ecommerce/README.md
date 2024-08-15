@@ -1,0 +1,2 @@
+# Projeto Spring
+Código feito para o Desafio DIO de montar um código com base em dos projetos padrão do Gof **(*Group of Four*)**. Nesse projeto escolhi o padrão **Facade** para montar um código que imprime mensagens em um contexto de e-commerce, quando ocorre recebimento de pedidos, processo de pagamentos, envio de pedidos e conclusão de pedidos.
