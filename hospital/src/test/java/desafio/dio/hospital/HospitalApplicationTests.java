@@ -1,10 +1,10 @@
-package desafio.dio.desafio;
+package desafio.dio.hospital;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DesafioApplicationTests {
+class HospitalApplicationTests {
 
 	@Test
 	void contextLoads() {
