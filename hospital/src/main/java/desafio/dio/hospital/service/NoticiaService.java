@@ -22,6 +22,9 @@ public class NoticiaService {
         return noticiaRepository.findById(id).orElse(null);
     }
 
+     public Noticia save(Noticia noticia) {
+        return noticiaRepository.save(noticia);
+    }
     public void delete(Long id) {
         noticiaRepository.deleteById(id);
     }

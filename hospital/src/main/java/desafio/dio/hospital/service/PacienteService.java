@@ -22,7 +22,13 @@ public class PacienteService {
         return pacienteRepository.findById(id).orElse(null);
     }
 
+    public Paciente save(Paciente paciente) {
+        return pacienteRepository.save(paciente);
+    }
     public void delete(Long id) {
         pacienteRepository.deleteById(id);
     }
+
+   
 }
+
