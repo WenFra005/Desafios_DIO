@@ -4,16 +4,11 @@ public class ContaTerminal {
     private String agencia = "9500";
     private int numero = 0110;
     private double saldo = 50.00;
-
-    public ContaTerminal(String nome, String agencia, int numero, double saldo) {
-        this.nome = nome;
-        this.agencia = agencia;
-        this.numero = numero;
-        this.saldo = saldo;
-    }
+   
     public ContaTerminal() {
-        //TODO Auto-generated constructor stub
+
     }
+
     public String getNome() {
         return nome;
     }

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class main {
+public class Main {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -12,7 +12,8 @@ public class main {
     System.out.println("Olá " + contaTerminal.getNome() + ". Sua conta foi criada com sucesso");
     System.out.println("Sua agencia é " + contaTerminal.getAgencia() + " e o numero é " + contaTerminal.getNumero());
     System.out.println("Seu de R$ " + contaTerminal.getSaldo() + " já foi liberado.");
-    }
+    
+}
     
 
 }
