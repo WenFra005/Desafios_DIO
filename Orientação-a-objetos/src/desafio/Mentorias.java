@@ -2,38 +2,28 @@ package desafio;
 
 import java.time.LocalDate;
 
-public class Mentorias {
+public class Mentorias extends Conteudo {
 
-   private String titulo;
-   private String descricao;
    private LocalDate data;
    
+    public LocalDate getData() {
+        return data;
+    }
+    public void setData(LocalDate data) {
+        this.data = data;
+    }
 
-public String getTitulo() {
-    return titulo;
-}
-public void setTitulo(String titulo) {
-    this.titulo = titulo;
-}
-public String getDescricao() {
-    return descricao;
-}
-public void setDescricao(String descricao) {
-    this.descricao = descricao;
-}
-public LocalDate getData() {
-    return data;
-}
-public void setData(LocalDate data) {
-    this.data = data;
-}
-
-@Override
-public String toString() {
+    @Override
+    public String toString() {
     return "====Mentorias====" + "\n" + 
-    "Título: " + titulo + "\n" +
-    "Descricao: " + descricao + 
+    "Título: " + getTitulo() + "\n" +
+    "Descricao: " + getDescricao() + 
     "Data: " + data;
 }
+    @Override
+    public double calcularXp() {
+        return XP_PADRAO + 20;
+    }
+
 
 }
