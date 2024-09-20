@@ -1,4 +1,4 @@
-# Como Construir Arquiteturas no Azure
+# Como construir arquiteturas no Azure
 
 Este repositório oferece um guia sobre como construir arquiteturas utilizando os serviços da plataforma **Microsoft Azure**. Aqui, você encontrará desde os primeiros passos de planejamento até a escolha de serviços, implementação e escalabilidade.
 
