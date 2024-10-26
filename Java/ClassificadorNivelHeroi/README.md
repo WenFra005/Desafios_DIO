@@ -1,18 +1,5 @@
-## Getting Started
+# Classificador de nível de herói
+Código em Java para conclusão do Desafio DIO para criar um classificador de herói para fixar os conhecimentos de lógica de programação.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Como funciona
+O código chama os métodos da classe **Herói** para exibir nome do herói, a quantidade de XP e o seu nível que são Ferro, Bronze, Prata, Ouro, Prata, Ascendente, Imortal e Radiante que dependem da quantidade de XP. O código chama o método **ganharXP** da classe **Heroi** para aumentar a quantidade de XP e depoid chama os método **classificadorHeroi** da classe **classificadorHeroi** para verificar a quantidade de XP e com base nisso classificar o nível do herói.
