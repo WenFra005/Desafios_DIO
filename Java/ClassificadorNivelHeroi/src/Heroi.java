@@ -8,6 +8,7 @@ public class Heroi {
         this.nomeHeroi = nomeHeroi;
         this.xpHeroi = xpHeroi;
         this.nivelHeroi = nivelHeroi;
+    classificadorHeroi.classificadorHeroi(xpHeroi);
     }
 
     public String getNomeHeroi() {
@@ -32,6 +33,12 @@ public class Heroi {
 
     public void setNivelHeroi(String nivelHeroi) {
         this.nivelHeroi = nivelHeroi;
+    }
+
+    public void ganharXp(int xp) {
+        this.xpHeroi += xp;
+        this.nivelHeroi = classificadorHeroi.classificadorHeroi(xpHeroi);
+        
     }
 
     @Override
