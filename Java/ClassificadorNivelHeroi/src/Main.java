@@ -1,14 +1,30 @@
 public class Main {
 
     public static void main(String[] args) {
-        Heroi heroi = new Heroi("Arthur", 50, null);
+        Heroi heroi = new Heroi("Arthur", 0, "Ferro");
         System.out.println(heroi);
         heroi.ganharXp(900);
         System.out.println(heroi);
-        heroi.ganharXp(1500);
+        heroi.ganharXp(1000);
         System.out.println(heroi);
-        heroi.ganharXp(2700);
-        
+        heroi.ganharXp(1000);
+        System.out.println(heroi);
+        heroi.ganharXp(1000);
+        System.out.println(heroi);
+        heroi.ganharXp(1000);
+        System.out.println(heroi);
+        heroi.ganharXp(1000);
+        System.out.println(heroi);
+        heroi.ganharXp(1000);
+        System.out.println(heroi);
+        heroi.ganharXp(1000);
+        System.out.println(heroi);
+        heroi.ganharXp(1000);
+        System.out.println(heroi);
+        heroi.ganharXp(1000);
+        System.out.println(heroi);
+        heroi.ganharXp(1000);
+        System.out.println(heroi);
     }
 
 }

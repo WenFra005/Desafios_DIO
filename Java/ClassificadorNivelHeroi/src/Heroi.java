@@ -43,7 +43,7 @@ public class Heroi {
 
     @Override
     public String toString() {
-        return "O Heroi de nome " + nomeHeroi + "está no nível de " + nivelHeroi;
+        return "O Heroi de nome " + nomeHeroi + " está no nível de " + nivelHeroi;
     }
 
     
